@@ -1,0 +1,7 @@
+  
+  randomStringUUID = new RandomStringUUID();
+            String uuid = randomStringUUID.getUUID();
+            map.put(loginName, uuid);
+  
+  long newId = idGenerator.getNextId();
+            long newId1 = newId-2590000;
